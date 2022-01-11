@@ -10,11 +10,11 @@ ogImage:
     url: '/assets/blog/build-fastify-backend/fastify.png'
 ---
 
-## Setup un backend NodeJs avec Fastify, Typescript et Jest
+# Setup un backend NodeJs avec Fastify, Typescript et Jest
 
 Cet article a pour but de centraliser une bonne pratique (selon moi) de construction d'un backend en nodeJs avec Fastify, Typescript et Jest. :joy:
 
-### Technos
+## Technos
 
 ---
 
@@ -23,7 +23,7 @@ Cet article a pour but de centraliser une bonne pratique (selon moi) de construc
 -   ![Jest logo](/assets/blog/build-fastify-backend/jest.png)
 -   ![Typescript logo](/assets/blog/build-fastify-backend/typescript.png)
 
-### Sources
+## Sources
 
 ---
 
@@ -32,7 +32,7 @@ Pour réaliser ce backend, je me suis servi de certaines sources :
 -   [https://www.youtube.com/watch?v=WHV57q6p3Lk&ab_channel=JayWolfe](https://www.youtube.com/watch?v=WHV57q6p3Lk&ab_channel=JayWolfe)
 -   [https://www.youtube.com/watch?v=beY0sn-XgtY&t=537s&ab_channel=JayWolfe](https://www.youtube.com/watch?v=beY0sn-XgtY&t=537s&ab_channel=JayWolfe)
 
-### Premières étapes
+## Premières étapes
 
 ---
 
@@ -49,7 +49,7 @@ Pour réaliser ce backend, je me suis servi de certaines sources :
 -   Pour tester
     > `curl localhost:3000`
 
-#### Installation de la config de la vidéo (_Facultatif_)
+### Installation de la config de la vidéo (_Facultatif_)
 
 -   Sur mac, pour télécharger le fichier de config
     > `brew install wget`
@@ -60,7 +60,7 @@ Pour réaliser ce backend, je me suis servi de certaines sources :
 -   On peu également changer le PORT, mis par défaut sur 3000, pour cela, il faut créer un fichier .env dans la racine du projet, et y ajouter:
     > `FASTIFY_PORT=8080`
 
-### Installation de Jest
+## Installation de Jest
 
 ---
 
