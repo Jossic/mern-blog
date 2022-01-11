@@ -41,9 +41,9 @@ Pour réaliser ce backend, je me suis servi de certaines sources :
 -   On installe le client
     > `yarn global add fastify-cli`
 -   On initialise le projet
-    > `fastify generate monProjet --lang=ts`
+    > `fastify generate mon-projet --lang=ts`
 -   On se rend dans le dossier
-    > `cd monProjet`
+    > `cd mon-projet`
 -   Lancement en mode dev
     > `yarn dev`
 -   Pour tester
