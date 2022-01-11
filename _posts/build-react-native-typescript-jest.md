@@ -10,7 +10,7 @@ ogImage:
     url: '/assets/blog/build-react-native-typescript-jest/reactnative.png'
 ---
 
-# Setup un backend NodeJs avec Fastify, Typescript et Jest
+# Setup un front React Native, Typescript et Jest
 
 Cet article a pour but de centraliser une bonne pratique de construction d'un backend en nodeJs avec Fastify, Typescript et Jest.
 
