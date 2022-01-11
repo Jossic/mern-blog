@@ -14,16 +14,27 @@ ogImage:
 
 Cet article a pour but de centraliser une bonne pratique (selon moi) de construction d'un backend en nodeJs avec Fastify, Typescript et Jest. :joy:
 
+### Technos
+
+---
+
+-   ![NodeJS logo](/assets/blog/build-fastify-backend/nodejs.png)
+-   ![Image Fastify](/assets/blog/build-fastify-backend/fastify-logo.png)
+-   ![Jest logo](/assets/blog/build-fastify-backend/jest.png)
+-   ![Typescript logo](/assets/blog/build-fastify-backend/typescript.png)
+
 ### Sources
+
+---
 
 Pour réaliser ce backend, je me suis servi de certaines sources :
 
 -   [https://www.youtube.com/watch?v=WHV57q6p3Lk&ab_channel=JayWolfe](https://www.youtube.com/watch?v=WHV57q6p3Lk&ab_channel=JayWolfe)
 -   [https://www.youtube.com/watch?v=beY0sn-XgtY&t=537s&ab_channel=JayWolfe](https://www.youtube.com/watch?v=beY0sn-XgtY&t=537s&ab_channel=JayWolfe)
 
----
-
 ### Premières étapes
+
+---
 
 ![Image Fastify](/assets/blog/build-fastify-backend/fastify-logo.png)
 
@@ -49,9 +60,9 @@ Pour réaliser ce backend, je me suis servi de certaines sources :
 -   On peu également changer le PORT, mis par défaut sur 3000, pour cela, il faut créer un fichier .env dans la racine du projet, et y ajouter:
     > `FASTIFY_PORT=8080`
 
----
-
 ### Installation de Jest
+
+---
 
 ![Jest logo](/assets/blog/build-fastify-backend/jest.png)
 
