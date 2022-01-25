@@ -41,31 +41,49 @@ Pour réaliser ce backend, je me suis servi de certaines sources :
 -   On initialise le projet
     > `expo init mon-projet` > ![Expo init](/assets/blog/build-react-native-typescript-jest/expo-init.png)
 -   On se rend dans le dossier > `cd mon-projet`
-<!-- -   Lancement en mode dev
-    > `yarn dev`
--   Pour tester
-    > `curl localhost:3000` -->
 
-<!-- ### Installation de la config de la vidéo (_Facultatif_)
+    ## Setup tailwind
 
--   Sur mac, pour télécharger le fichier de config
-    > `brew install wget`
--   On télécharge le fichier
-    > `wget https://gist.githubusercontent.com/wolfejw86/22a29bd6565fb679959c83c5bc40fea5/raw/9ac1869e4d4d91a41a37d0739b11e1b4de62612f/setup-typescript-eslint-prettier.js`
--   On execute le fichier
-    > `node setup-typescript-eslint-prettier.js`
--   On peu également changer le PORT, mis par défaut sur 3000, pour cela, il faut créer un fichier .env dans la racine du projet, et y ajouter:
-    > `FASTIFY_PORT=8080` -->
+---
 
-<!-- ## Installation de Jest
+    ### Sources
+
+    -   [https://www.npmjs.com/package/tailwind-react-native-classnames](https://www.npmjs.com/package/tailwind-react-native-classnames)
+
+-   [https://www.npmjs.com/package/tailwind-rn](https://www.npmjs.com/package/tailwind-rn)
+
+-   Deux solutions Tailwind React Native Classnames | tailwind-rn
+    > `expo install tailwind-react-native-classnames`
+
+## Installation de Jest - react testing library
 
 ---
 
 ![Jest logo](/assets/blog/build-fastify-backend/jest.png)
 
 -   On installe de dépendances
-    > `yarn add jest ts-jest @types/jest -D`
+    > `yarn add jest ts-jest @types/jest @testing-library/react-native jest-expo -D`
 -   On initialise
     > `npx ts-jest config:init`
 -   Commande pour lancer
-    > `yarn test` -->
+
+    > `yarn test`
+
+    ## Setup ESlint + prettier
+
+---
+
+    ### Sources
+
+-   [https://edusutil.medium.com/eslint-with-prettier-settings-for-react-native-ce13d2aaf500](https://edusutil.medium.com/eslint-with-prettier-settings-for-react-native-ce13d2aaf500)
+-   [https://github.com/vasilestefirta/react-native-eslint-prettier-example](https://github.com/vasilestefirta/react-native-eslint-prettier-example)
+
+-   On initialise
+
+    > `npx eslint --init`
+
+    ## Setup AWS Amplify
+
+---
+
+    ### Sources
